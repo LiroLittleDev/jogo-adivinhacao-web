@@ -23,7 +23,7 @@ function compareNumbers() {
         userNumbers.push(userNumber);
         guessesElement.innerHTML = userNumbers.join(", ");
         guesses++;
-        attempts.innerHTML = userNumbers.length; 
+        attempts.innerHTML = userNumbers.length;
 
         if (userNumber < computerNumber) {
             textInput.innerHTML = "Valor abaixo!";
