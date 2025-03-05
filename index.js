@@ -21,9 +21,9 @@ function compareNumbers() {
 
     if (userNumber >= 1 && userNumber <= 100) {
         userNumbers.push(userNumber);
-        attempts.innerHTML = userNumbers.join(", ");
+        guessesElement.innerHTML = userNumbers.join(", ");
         guesses++;
-        guessesElement.innerHTML = guesses; 
+        attempts.innerHTML = userNumbers.length; 
 
         if (userNumber < computerNumber) {
             textInput.innerHTML = "Valor abaixo!";
